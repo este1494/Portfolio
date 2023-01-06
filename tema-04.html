@@ -12,19 +12,36 @@
     <title>Grundlæggende Animation</title>
   </head>
   <body>
-    <header>
-      <ul class="menu">
-        <li><a class="menuItem" href="#">Forside</a></li>
-        <li><a class="menuItem" href="#">Om Mig</a></li>
-      </ul>
-      <button class="hamburger">
-        <!-- material icons https://material.io/resources/icons/ -->
-        <i class="menuIcon material-icons">menu</i>
-        <i class="closeIcon material-icons">close</i>
-      </button>
-    </header>
+      <header>
+        <div class="nav-wrapper">
+          <nav>
+            <ul>
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="om-mig.html">Om Mig</a></li>
+              <li><a href="portfolie.html">Portfolio</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu-navn">
+          <ul class="menu">
+            <li><a class="menuItem" href="index.html">Forside</a></li>
+            <li><a class="menuItem" href="om-mig.html">Om Mig</a></li>
+            <li><a class="menuItem" href="tema-01.html">Intro Tema</a></li>
+            <li><a class="menuItem" href="tema-02.html">Mit Website</a></li>
+            <li><a class="menuItem" href="tema-03.html">Min Prototype</a></li>
+            <li><a class="menuItem" href="tema-04.html">Mit Spil</a></li>
+            <li><a class="menuItem" href="tema-05.html">Mit Redesign Website</a></li>
+          </ul>
+  
+          <div class="menu2">
+            <div class="menupunkt"><p>test</p></div>
+            <div class="menupunkt"><p>test</p></div>
+          </div>
+        </div>
+      </header>
     <main>
       <h1>Mit Spil</h1>
+      <div class="c4-1">
       <p>
         Ideen til min spil var simpel og baseret på min elsket kæledyr. Spillereglerne er enkelte og nemme at forstå. Jeg skitsede i hånden mit hovedkarakter og de diverse elementer i spillet og spillets scene. Jeg valgte den Kawaii stil da spillet
         har både en "nuttet" hovedkarakter og elementer, spillets scene (forgrund, bagrund og mellemgrund) krævede lyse og indbydende farver.
@@ -55,17 +72,20 @@
         elementer i et HTML-dokument. De bruges normalt i kombination med funktioner, og funktionen vil ikke blive udført før hændelsen indtræffer (såsom når en bruger klikker på en knap).
       </p>
       <img src="img/spil-knap.webp" alt="knap" />
+    </div>
     </main>
     <footer>
-      Estefanía Macedo-Funder
-      <ul class="socialemedier">
-        <li>
-          <a href="https://www.facebook.com/estefania.macedo">Facebook</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/estefaniafunder/">Instagram</a>
-        </li>
-      </ul>
+      <div class="wrapper">
+        <p>Estefanía Macedo-Funder</p>
+        <ul class="kontakt">
+          <li>
+            <a class="hover-futter" href="https://www.linkedin.com/in/estefan%C3%ADa-macedo-funder-5a63381b7/">Linkedin</a>
+          </li>
+          <li>
+            <a class="hover-futter" href="https://www.estefunder@gmail.com/">email</a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <script src="javascript/burger-menu.js"></script>
   </body>

@@ -13,10 +13,26 @@
   </head>
   <body>
     <header>
-      <ul class="menu">
-        <li><a class="menuItem" href="#">Forside</a></li>
-        <li><a class="menuItem" href="#">Om Mig</a></li>
-      </ul>
+      <div class="nav-wrapper">
+        <nav>
+          <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="om-mig.html">Om Mig</a></li>
+            <li><a href="portfolie.html">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-navn">
+        <ul class="menu">
+          <li><a class="menuItem" href="index.html">Forside</a></li>
+          <li><a class="menuItem" href="om-mig.html">Om Mig</a></li>
+          <li><a class="menuItem" href="tema-01.html">Intro Tema</a></li>
+          <li><a class="menuItem" href="tema-02.html">Mit Website</a></li>
+          <li><a class="menuItem" href="tema-03.html">Min Prototype</a></li>
+          <li><a class="menuItem" href="tema-04.html">Mit Spil</a></li>
+          <li><a class="menuItem" href="tema-05.html">Mit Redesign Website</a></li>
+        </ul>
+      </div>
       <button class="hamburger">
         <!-- material icons https://material.io/resources/icons/ -->
         <i class="menuIcon material-icons">menu</i>
@@ -24,22 +40,26 @@
       </button>
     </header>
     <main>
-      
       <p>
         Udvikler værktøjer eller kort "DevTools" er programmer, der giver en udvikler mulighed for at oprette, teste og fejlfinde software. Nuværende browsere giver integrerede udviklerværktøjer, som gør det muligt at inspicere et websted. De lader
         brugere inspicere og fejlsøge sidens HTML, CSS og JavaScript, tillader at inspicere den netværkstrafik, den forårsager, gør det muligt at måle dens ydeevne og meget mere.
       </p>
+      <button class="favorite styled"
+        type="button">
+</button>
     </main>
     <footer>
-      Estefanía Macedo-Funder
-      <ul class="socialemedier">
-        <li>
-          <a href="https://www.facebook.com/estefania.macedo">Facebook</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/estefaniafunder/">Instagram</a>
-        </li>
-      </ul>
+      <div class="wrapper">
+        <p>Estefanía Macedo-Funder</p>
+        <ul class="kontakt">
+          <li>
+            <a class="hover-futter" href="https://www.linkedin.com/in/estefan%C3%ADa-macedo-funder-5a63381b7/">Linkedin</a>
+          </li>
+          <li>
+            <a class="hover-futter" href="https://www.estefunder@gmail.com/">email</a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <script src="javascript/burger-menu.js"></script>
   </body>
