@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-nav ul {
+.ul-menu {
   display: flex;
   flex-flow: wrap;
   align-items: center;
@@ -24,7 +24,7 @@ nav ul :hover {
 }
 
 body {
-  background-color: rgb (249, 236, 218);
+  background-color: rgb(249, 236, 218);
   color: rgb(123, 47, 123);
 }
 
@@ -70,9 +70,6 @@ button {
   padding: 10px 20px 9px 20px;
   cursor: pointer;
 }
-.center {
-  text-align: center;
-}
 
 button {
   transition: transform 0.7s ease-in-out;
@@ -103,10 +100,11 @@ ul li {
   flex-direction: column;
 }
 .nav-wrapper {
-  background-color: rgb(233, 218, 218);
+  background-color: rgb(230, 230, 250);
   width: 100%;
-  height: 200px;
-  margin-top: 0x;
+  height: auto;
+  padding-bottom: 1rem;
+  display: inline;
 }
 ul a {
   color: rgb(123, 47, 123);
@@ -181,23 +179,31 @@ ul a {
 }
 
 /*tema-05*/
+@media (min-width: 650px) {
+  .grid_1-1 {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-inline: 5%;
+  }
 
-.c5-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 30px;
-  column-gap: 30px;
-  row-gap: 50px;
-}
+  .c5-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    column-gap: 30px;
+    row-gap: 50px;
+  }
 
-.images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-img {
-  width: 100%;
-  padding-bottom: 20px;
-  height: auto;
-  display: block;
+  img {
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+    display: block;
+  }
 }
