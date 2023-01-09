@@ -24,6 +24,7 @@
   }
   .toggle-btn {
     display: block;
+    margin-left: auto;
   }
 
   .main-menu.shown {
