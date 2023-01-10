@@ -116,6 +116,18 @@ ul a {
   text-decoration: none;
 }
 
+.container .center {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: x-large;
+  padding: 50px;
+  transition-duration: 0.1s;
+}
+.container .center:hover {
+  scale: 1.2;
+}
+
 /*forside*/
 .img-wrapper {
   width: 100%;
@@ -124,19 +136,27 @@ ul a {
 
 /*om mig*/
 
+.lidt-om-mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+  column-gap: 30px;
+  padding-top: 60px;
+}
+
 /*mit-portafolio*/
 
 .menu-buttons {
   display: grid;
   justify-content: space-around;
-  padding: 50 px;
+  padding: 50px;
 }
 
 .cont-port1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 60px;
-  column-gap: 150px;
+  column-gap: 30px;
   row-gap: 50px;
 }
 
@@ -150,7 +170,7 @@ ul a {
 .c2-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  margin: 40px;
   column-gap: 30px;
   row-gap: 50px;
 }
@@ -160,7 +180,7 @@ ul a {
 .c3-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  margin: 40px;
   column-gap: 30px;
   row-gap: 50px;
 }
@@ -170,7 +190,7 @@ ul a {
 .c4-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  margin: 40px;
   column-gap: 30px;
   row-gap: 50px;
 }
@@ -178,7 +198,8 @@ ul a {
 /*tema-05*/
 
 .c5-1 {
-  display: flex;
+  display: grid;
+  margin: 40px;
   column-gap: 30px;
   row-gap: 30px;
   padding-inline: 5%;
@@ -187,9 +208,8 @@ ul a {
 .c5-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  margin: 40px;
   column-gap: 30px;
-  row-gap: 50px;
 }
 
 .images {
