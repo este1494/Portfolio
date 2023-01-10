@@ -7,207 +7,199 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 1300px) {
-  .ul-menu {
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    justify-content: space-around;
-    column-gap: 70px;
-    font-size: x-large;
-    list-style: none;
-    padding: 80px;
-  }
-
-  .main-menu {
-    background-color: rgb(233, 218, 218);
-  }
-
-  nav ul :hover {
-    scale: 1.2;
-    transition-duration: 0.1s;
-  }
-
-  body {
-    background-color: rgb(249, 236, 218);
-    color: rgb(123, 47, 123);
-  }
-
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
-    visibility: hidden;
-  }
-
-  h1 {
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 5%;
-    margin-bottom: 25px;
-    padding: 20px;
-  }
-
-  .subtitle {
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 5%;
-    padding: 20px;
-  }
-
-  button {
-    margin-top: 100px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    color: rgb(123, 47, 123);
-    background-color: rgb(233, 218, 218);
-    border: none;
-    font-size: 1.5rem;
-    padding: 10px 20px 9px 20px;
-    cursor: pointer;
-  }
-
-  button {
-    transition: transform 0.7s ease-in-out;
-  }
-
-  footer {
-    text-align: center;
-    font-size: x-large;
-    padding: 50px;
-    background-color: rgb(233, 218, 218);
-  }
-  footer ul a {
-    color: rgb(123, 47, 123);
-  }
-  footer ul :hover {
-    scale: 1.2;
-    transition-duration: 0.1s;
-  }
-  ul li {
-    list-style: none;
-    font-size: x-large;
-    color: rgb(123, 47, 123);
-  }
-
-  .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .nav-wrapper {
-    background-color: rgb(230, 230, 250);
-    width: 100%;
-    height: auto;
-    padding-bottom: 1rem;
-    display: inline;
-  }
-  ul a {
-    color: rgb(123, 47, 123);
-    text-decoration: none;
-  }
-
-  /*forside*/
-  .img-wrapper {
-    width: 100%;
-    height: 100%;
-  }
-
-  /*om mig*/
-
-  /*mit-portafolio*/
-
-  .menu-buttons {
-    display: grid;
-    justify-content: space-around;
-  }
-
-  .cont-port1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 60px;
-    column-gap: 150px;
-    row-gap: 50px;
-  }
-
-  /*tema-01*/
-  .c1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    column-gap: 30px;
-    row-gap: 50px;
-  }
-
-  /*tema-02*/
-
-  .img {
-    width: 100%;
-    padding-block-end: 10%;
-  }
-
-  .c2-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    column-gap: 30px;
-    row-gap: 50px;
-  }
-
-  /*tema-03*/
-
-  .c3-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    column-gap: 30px;
-    row-gap: 50px;
-  }
-
-  /*tema-04*/
-
-  .c4-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    column-gap: 30px;
-    row-gap: 50px;
-  }
-
-  /*tema-05*/
-
-  .c5-1 {
-    display: flex;
-    column-gap: 30px;
-    row-gap: 30px;
-    padding-inline: 5%;
-  }
-
-  .c5-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-    column-gap: 30px;
-    row-gap: 50px;
-  }
-
-  .images {
-    display: grid;
-  }
-
-  img {
-    width: 100%;
-    padding-bottom: 20px;
-    height: auto;
-    display: block;
-  }
+/* @media (max-width: 1300px) { */
+.ul-menu {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 70px;
+  font-size: x-large;
+  list-style: none;
+  padding: 80px;
 }
+
+.main-menu {
+  background-color: rgb(233, 218, 218);
+}
+
+nav ul :hover {
+  scale: 1.2;
+  transition-duration: 0.1s;
+}
+
+body {
+  background-color: rgb(249, 236, 218);
+  color: rgb(123, 47, 123);
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  visibility: hidden;
+}
+
+h1 {
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 5%;
+  padding: 20px;
+}
+
+button {
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: rgb(123, 47, 123);
+  background-color: rgb(233, 218, 218);
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px 20px 9px 20px;
+  cursor: pointer;
+}
+
+button {
+  transition: transform 0.7s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  font-size: x-large;
+  padding: 50px;
+  background-color: rgb(233, 218, 218);
+}
+footer ul a {
+  color: rgb(123, 47, 123);
+}
+footer ul :hover {
+  scale: 1.2;
+  transition-duration: 0.1s;
+}
+ul li {
+  list-style: none;
+  font-size: x-large;
+  color: rgb(123, 47, 123);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nav-wrapper {
+  background-color: rgb(230, 230, 250);
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+  display: inline;
+}
+ul a {
+  color: rgb(123, 47, 123);
+  text-decoration: none;
+}
+
+/*forside*/
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/*om mig*/
+
+/*mit-portafolio*/
+
+.menu-buttons {
+  display: grid;
+  justify-content: space-around;
+  padding: 50 px;
+}
+
+.cont-port1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+  column-gap: 150px;
+  row-gap: 50px;
+}
+
+/*tema-02*/
+
+.img {
+  width: 100%;
+  padding-block-end: 10%;
+}
+
+.c2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+/*tema-03*/
+
+.c3-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+/*tema-04*/
+
+.c4-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+/*tema-05*/
+
+.c5-1 {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding-inline: 5%;
+}
+
+.c5-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.images {
+  display: grid;
+}
+
+img {
+  width: 100%;
+  padding-bottom: 20px;
+  height: auto;
+  display: block;
+}
+/* } */
